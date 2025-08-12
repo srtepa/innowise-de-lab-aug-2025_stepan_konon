@@ -5,7 +5,7 @@ select
 	o.amount
 from 
 	customers c 
-left join 
+right join 
 	orders o -- делаем left join с таблицей orders
 	on c.customer_id = o.customer_id --по id
 order by 
