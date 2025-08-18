@@ -1,0 +1,1 @@
+CREATE USER hr_user WITH PASSWORD '1234';--создали пользователя и присвоили ему пароль
