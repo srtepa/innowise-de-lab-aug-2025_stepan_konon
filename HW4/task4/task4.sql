@@ -5,7 +5,7 @@ VALUES (4, 'Data Analytics Platform', 180000, '2023-12-01', '2024-05-31');
 
 INSERT INTO employeeprojects (employeeid, projectid, hoursworked)--вставить запись
 SELECT employeeid, 4,
-       CASE 
+       CASE --сделаем выбор "сколько часов должен работать сотрудник из какого-то отдела должен работать"
            WHEN department = 'HR' THEN 160--если ... то
            WHEN department = 'Finance' THEN 140
            ELSE 120
