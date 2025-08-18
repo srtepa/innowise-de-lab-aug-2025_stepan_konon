@@ -1,0 +1,1 @@
+GRANT INSERT, UPDATE ON employees TO hr_user;--выдали права на вставку и обновление данных для юзера

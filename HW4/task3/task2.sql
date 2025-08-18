@@ -1,0 +1,1 @@
+GRANT SELECT ON employees TO hr_user; --дали права на SELECT пользователю
